@@ -1,0 +1,24 @@
+.px10 {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+@media (max-width: 900px) {
+  .mobile-box {
+    width: 83px;
+    height: 100%;
+    float: right;
+  }
+  .mobile-box:active ul {
+    display: block;
+  }
+  .mobile-box ul {
+    display: none;
+    position: relative;
+    top: 64px;
+    background-color: #ee6e73;
+    -webkit-box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.2);
+            box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.2);
+  }
+}
+/*# sourceMappingURL=App.css.map */

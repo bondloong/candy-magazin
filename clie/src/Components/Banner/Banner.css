@@ -1,0 +1,63 @@
+.banner {
+    width: 97%;
+    height: 200px;
+    margin: auto;
+    margin-top: 8px;
+    position: relative;
+}
+
+a {
+    display: block;
+    height: 60px;
+    padding: 9px 0 0;
+    width: 468px;
+    text-decoration: none;
+    color: #660000;
+}
+
+.banner:hover {}
+
+a:hover {}
+
+.anim-banner {}
+
+.anim-banner.anim-banner-active {}
+
+.banner>.pred {
+    left: 0px;
+    text-decoration: none;
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    top: 50%;
+    width: auto;
+    margin-top: -30px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 4em;
+    -webkit-transition: 0.6s ease;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    line-height: 0.5;
+}
+
+.banner>.next {
+    right: 0px;
+    border-radius: 3px 0 0 3px;
+    text-decoration: none;
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    top: 50%;
+    width: auto;
+    margin-top: -30px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 4em;
+    -webkit-transition: 0.6s ease;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    line-height: 0.5;
+}

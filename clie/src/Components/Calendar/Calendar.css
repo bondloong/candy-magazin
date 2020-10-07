@@ -1,0 +1,8 @@
+.mon {
+    width: 350px;
+    text-align: left;
+}
+
+.day:nth-child(7n) {
+    background-color: red;
+}

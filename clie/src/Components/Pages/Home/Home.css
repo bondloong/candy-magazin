@@ -1,0 +1,31 @@
+.main__content {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.fr {
+    display: flex;
+    flex-direction: row;
+}
+
+.l-col {
+    min-width: 230px;
+    position: initial;
+    overflow: scroll auto;
+    overflow-x: hidden;
+    max-height: 700px;
+}
+
+.collection-item {
+    padding: 10px 15px !important;
+}
+
+.r-col {
+    min-width: 260px;
+    position: initial;
+    max-height: 700px;
+}
+
+#forma {
+    max-width: 200px;
+}

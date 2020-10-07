@@ -1,0 +1,42 @@
+.calendar-date,
+thead tr th,
+tbody tr td {
+    text-align: center;
+    border-radius: 0;
+}
+
+.my-date {
+    display: flex;
+    justify-content: space-around;
+    background-color: #ee6e73;
+}
+
+.calendar-date {
+    font-size: 2em;
+    padding: 10px 5px;
+    display: inline;
+}
+
+.calendar-date:hover {
+    cursor: pointer;
+}
+
+thead tr {
+    background-color: lightslategray;
+    border: none;
+    border-radius: 0;
+}
+
+.today {
+    background-color: #2bbbad;
+}
+
+.month:hover {
+    background-color: #ee6e73;
+    cursor: pointer;
+}
+
+.year:hover {
+    background-color: #ee6e73;
+    cursor: pointer;
+}
