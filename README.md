@@ -1,5 +1,5 @@
 # candy-magazin
 
-![til](./magazinus.gif)
+![til](./candy.gif)
 
 Магазин с исользованием свяок (React, Redux, Router, StyledComponents и т.п.)
